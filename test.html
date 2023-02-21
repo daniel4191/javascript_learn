@@ -1,0 +1,18 @@
+<script>
+    // 숫자를 입력 받습니다.
+
+    const rawR = prompt('원의 반지름을 입력해주세요.')
+
+    // 입력받은 값을 정제
+
+    // 1.반지름 값
+    const r = Number(rawR)
+    // 2. 원의 넓이
+    const area = Math.PI * r**2
+    // 3. 원의 둘레
+    const circle = 2 * Math.PI * r
+    
+
+    // 출력 합니다.
+    alert (`원의 반지름: ${r}\n원의 넓이: ${area}\n원의 둘레: ${circle}`)
+</script>
